@@ -3,17 +3,17 @@
 
 CUSTOMER 
 
----------------------total customer------------------------------------------------
+---------------------How many customers are there in total?------------------------------------------------
 
 select count(*) as total_customer from customer
 
------------------------------number of male and female customer------------------------------------------
+-----------------------------How many customers are male and female?------------------------------------------
 select gender, count(*) as customer_count
 from customer
 where gender is not null
 group by gender
 
--------------------------------average age of all the female-------------------------------------------------------------------------------------
+-------------------------------what is the average age of all the female customer-------------------------------------------------------------------------------------
 
 select CID, avg(age) as average_age from customer where gender = 'female' group by CID having avg(age) between 20 and 50 
 
@@ -24,7 +24,7 @@ from [order]
 group by CID
 order by order_count desc
 
--------------------------------------------------customer distribution by age group------------------------------------------------------------------------------------
+-------------------------------------------------What is the distribution of customers by age group?------------------------------------------------------------------------------------
 
 select 
 case 
@@ -39,7 +39,7 @@ count(*) as customer_count
 from customer
 group by age
 
------------------------------customer lifespan gretaer than 5 months----------------------------------------------------------------
+-----------------------------what is the lifespan of customer gretaer than 5 months----------------------------------------------------------------
 
 select CID, datediff(month, min(payment_date),max(payment_date)) as customer_lifespan from payment group by CID having datediff(month, min(payment_date),max(payment_date)) > 5
 
@@ -50,14 +50,14 @@ select CID, count(*) as purchase_count from payment where payment_date >= '2020-
 
 DISTRIBUTOR
 
--------------------------------------------distribution of distributors by gender-----------------------------------------------------------------------------------
+-------------------------------------------what is the distribution of distributors by gender-----------------------------------------------------------------------------------
 
 select gender, count(*) as distributor_count
 from distributor
 where gender is not null 
 group by gender
 
------------------------------------------------------------distributor with highest number of product-------------------------------------------------------------
+-----------------------------------------------------------which distributor have the highest number of product-------------------------------------------------------------
 
 select d.dname, count(*) as product_count from distributor as d inner join product as p on d.DID = p.DID group by dname order by product_count desc
 
@@ -69,29 +69,29 @@ select d.dname, count(PID) as product_count from distributor as d inner join pro
 
 ORDERS
 
------------------------------------total number of orders------------------------------------------------------------------------
+-----------------------------------How many orders have been placed in total?------------------------------------------------------------------------
 
 select count(OID) as total_order from [order]  
 
-------------------Total Revenue----------------------------------------------------------------------------------------------------------
+------------------What is the total revenue generated from orders?--------------------------------------------------------------------------------------------------------
 						
 select sum(order_item.order_item_quantity * product.price) as total_revenue from order_item
 join product on order_item.PID= product.PID 
 
-------------------Average Revenue Per order----------------------------------------------------------------------------------------------------------
+------------------what is the Average Revenue Per order----------------------------------------------------------------------------------------------------------
 
 select avg(order_item.order_item_quantity * product.price) AS avg_revenue, order_item.OID FROM order_item
 join product ON order_item.PID= product.PID group by OID
 
--------------------------------------number of orders based on status--------------------------------------------------------------------------
+-------------------------------------How many orders are in each status category?--------------------------------------------------------------------------
 
 select status, count(OID) as order_status from [order] group by status
 
---------------------------------------------revenue distribution by product catgeory--------------------------------------------------------------
+--------------------------------------------What is the revenue distribution by product category?--------------------------------------------------------------
 
 select sum(oi.order_item_quantity * p.price) as total_revenue, p.categoryID from order_item as oi inner join product as p on oi.PID = p.PID group by p.categoryID 
 
---------------------------------------------------order per date by customer detail-----------------------------------------------------------------------
+--------------------------------------------------How many order have placed per date by customer detail?----------------------------------------------------------------------
 
 select count(odate) as order_per_date, c.cname, c.age from [order] as o join customer as c on o.CID = c.CID  where age between 20 and 50 and gender = 'male' group by c.cname, c.age 
 
@@ -99,11 +99,11 @@ select count(odate) as order_per_date, c.cname, c.age from [order] as o join cus
 
 PRODUCT
 
------------------------------------------average product price----------------------------------------------------------------------------------------
+-----------------------------------------What is the average price of products?----------------------------------------------------------------------------------------
 
 select avg(price) as avg_price from product 
 
-------------------------------------------------top selling product-----------------------------------------------------------------------
+------------------------------------------------what are the top selling product?----------------------------------------------------------------------
 
 select top 5 p.pname, SUM(oi.order_item_quantity) as total_quantity_sold
 from product as p
@@ -111,15 +111,15 @@ join order_item as oi on p.PID = oi.PID
 group by p.pname
 order by total_quantity_sold desc
 
---------------------------product distribution by category---------------------------------------------------------------------------------
+--------------------------what is the product distribution by category---------------------------------------------------------------------------------
 
 select count(PID) as product_distribution, category_name from product_category  as pc join product as p on pc.categoryID = p.categoryID group by category_name
 
-----------------------------------------------number of products supplied by each distributor--------------------------------------------------
+----------------------------------------------How many products supplied by each distributor?-------------------------------------------------
 
 select d.dname, count(PID) as product_count from product as p join distributor as d on p.DID = d.DID group by d.dname order by product_count desc
 
-------------------------------------------------------------total revenue generated per product-----------------------------------------------------------
+------------------------------------------------------------What is the total revenue generated per product-----------------------------------------------------------
 
 select sum(oi.order_item_quantity * p.price) as total_revenue, p.pname from product as p join order_item as oi on p.PID = oi.PID group by p.pname
 
@@ -187,11 +187,11 @@ from order_item as oi join product as p on oi.PID = p.PID
 
 PAYMENT
 
------------------------amount after 10% Tax-----------------------------------------------------------
+-----------------------what is the total amount after 10% Tax?-----------------------------------------------------------
 
 select amount from payment
 
--------------------total payment made on each payemnt date------------------------------------
+-------------------how many payment made on each payemnt date?------------------------------------
 
 select payment_date, count(*) as Payment_count from payment group by payment_date
 
