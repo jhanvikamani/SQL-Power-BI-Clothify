@@ -62,12 +62,12 @@ PRODUCT <br>
      
 Inventory <br>
 
-   How many items are in the inventory for each product? <br>
-   Which products have low inventory quantities? <br>
-   How many items are in the inventory for each distributor? <br>
-   How does the inventory quantity change over time? <br>
-   What is the average inventory quantity per product category? <br>
-   What is the total value of inventory for each product? <br>
+  1. How many items are in the inventory for each product? <br>
+  2. Which products have low inventory quantities? <br>
+  3. How many items are in the inventory for each distributor? <br>
+  4. How does the inventory quantity change over time? <br>
+  5. What is the average inventory quantity per product category? <br>
+  6. What is the total value of inventory for each product? <br>
       
 ORDER ITEM <br>
 
