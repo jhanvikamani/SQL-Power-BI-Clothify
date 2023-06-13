@@ -29,7 +29,7 @@ INSERTED RECORDS
 
 PERFORMED ANALYSIS:
 
-CUSTOMER
+CUSTOMER <br>
        How many customers are there in total? <br>
        How many customers are male and female? <br>
        what is the average age of all the female customer? <br>
