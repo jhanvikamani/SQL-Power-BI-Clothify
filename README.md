@@ -60,7 +60,7 @@ PRODUCT <br>
    How many products supplied by each distributor? <br>
    What is the total revenue generated per product? <br>
      
-Iventory <br>
+Inventory <br>
 
    How many items are in the inventory for each product? <br>
    Which products have low inventory quantities? <br>
