@@ -31,7 +31,7 @@ PERFORMED ANALYSIS:
 
 CUSTOMER <br>
 
-       How many customers are there in total? <br>
+   How many customers are there in total? <br>
        How many customers are male and female? <br>
        what is the average age of all the female customer? <br>
        How many customer placed the order and among them which customer placed the maximum order? <br>
