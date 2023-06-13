@@ -12,7 +12,7 @@ Clothify is an imaginary clothing e-commerce database that I created, and the da
 
 # METHODOLOGY: 
 
-DATABASE - Clothify
+### DATABASE - Clothify
 
 CREATED TABLE :
 
@@ -60,7 +60,7 @@ PRODUCT <br>
   4. How many products supplied by each distributor? <br>
   5. What is the total revenue generated per product? <br>
      
-Inventory <br>
+INVENTORY <br>
 
   1. How many items are in the inventory for each product? <br>
   2. Which products have low inventory quantities? <br>
