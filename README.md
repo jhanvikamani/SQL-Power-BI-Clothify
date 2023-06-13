@@ -16,7 +16,7 @@ DATABASE - Clothify
 
 CREATED TABLE :
 
-  1.Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age
+  1.Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age <br>
   2.Distributor - it contain distributor details which includes DistributorID, Name, Email, Address, Phone-No, Gender, Age
   3.Order Table - it contain order details which includes orderID, order date, customerID, status, order-no, total amount
   4.Product Category - it contain details of product category which includes categoryID, name
