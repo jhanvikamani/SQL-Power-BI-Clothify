@@ -16,20 +16,20 @@ DATABASE - Clothify
 
 CREATED TABLE :
 
-  1.Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age <br>
-  2.Distributor - it contain distributor details which includes DistributorID, Name, Email, Address, Phone-No, Gender, Age <br>
-  3.Order Table - it contain order details which includes orderID, order date, customerID, status, order-no, total amount <br>
-  4.Product Category - it contain details of product category which includes categoryID, name <br>
-  5.Product - it contains details of product which includes productID, product name, description, price, distributorID, categoryID <br>
-  6.Inventory - it contains details of inventory which includes InventoryID, ProductID, Quantity <br>
-  7.Order Item - it contains details of all order items which includes orderitemID, orderitem quantity, price, orderID, productID <br>
-  8.Payment - it contains details of payment made by customer inculding tax amount which includes paymentID, payment date, amount, orderID, customerID <br>
+  1. Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age <br>
+  2. Distributor - it contain distributor details which includes DistributorID, Name, Email, Address, Phone-No, Gender, Age <br>
+  3. Order Table - it contain order details which includes orderID, order date, customerID, status, order-no, total amount <br>
+  4. Product Category - it contain details of product category which includes categoryID, name <br>
+  5. Product - it contains details of product which includes productID, product name, description, price, distributorID, categoryID <br>
+  6. Inventory - it contains details of inventory which includes InventoryID, ProductID, Quantity <br>
+  7. Order Item - it contains details of all order items which includes orderitemID, orderitem quantity, price, orderID, productID <br>
+  8. Payment - it contains details of payment made by customer inculding tax amount which includes paymentID, payment date, amount, orderID, customerID <br>
 
 INSERTED RECORDS 
 
 PERFORMED ANALYSIS:
 
-A.CUSTOMER
+CUSTOMER
        How many customers are there in total? <br>
        How many customers are male and female? <br>
        what is the average age of all the female customer? <br>
@@ -37,11 +37,11 @@ A.CUSTOMER
        What is the distribution of customers by age group? <br>
        what is the lifespan of customer gretaer than 5 months? <br>
        
-B.DISTRIBUTOR
+DISTRIBUTOR
        what is the distribution of distributors by gender? <br>
        which distributor have the highest number of product? <br>
        
-C.ORDER
+ORDER
        How many orders have been placed in total? <br>
        What is the total revenue generated from orders? <br>
        what is the Average Revenue Per order? <br>
@@ -49,14 +49,14 @@ C.ORDER
        What is the revenue distribution by product category? <br>
        How many order have placed per date by customer detail? <br>
      
-D.PRODUCT
+PRODUCT
       What is the average price of products? <br>
       what are the top selling product? <br>
       what is the product distribution by category? <br>
       How many products supplied by each distributor? <br>
       What is the total revenue generated per product? <br>
      
-E.Iventory
+Iventory
       How many items are in the inventory for each product? <br>
       Which products have low inventory quantities? <br>
       How many items are in the inventory for each distributor? <br>
@@ -64,13 +64,13 @@ E.Iventory
       What is the average inventory quantity per product category? <br>
       What is the total value of inventory for each product? <br>
       
-F.ORDER ITEM
+ORDER ITEM
       what is the average price of items per order and product? <br>
       How many items are in each order? <br>
       Which products have the highest quantity ordered? <br>
       How does the price of items vary across different orders? <br>
       
- G.PAYMENT
+PAYMENT
       what is the total amount after 10% Tax? <br>
       how many payment made on each payemnt date? <br>
       
