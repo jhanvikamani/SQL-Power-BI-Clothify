@@ -16,12 +16,12 @@ Clothify is an imaginary clothing e-commerce database that I created, and the da
 
 #### CREATED TABLE :
 
-  1. Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age <br>
-  2. Distributor - it contain distributor details which includes DistributorID, Name, Email, Address, Phone-No, Gender, Age <br>
-  3. Order Table - it contain order details which includes orderID, order date, customerID, status, order-no, total amount <br>
-  4. Product Category - it contain details of product category which includes categoryID, name <br>
+  1. Customer - it contains customer details including customerID, name, email, address, phone-no, gender, age <br>
+  2. Distributor - it contains distributor details including DistributorID, Name, Email, Address, Phone-No, Gender, Age <br>
+  3. Order Table - it contains order details including orderID, order date, customerID, status, order-no, total amount <br>
+  4. Product Category - it contains details of product category which includes categoryID, name <br>
   5. Product - it contains details of product which includes productID, product name, description, price, distributorID, categoryID <br>
-  6. Inventory - it contains details of inventory which includes InventoryID, ProductID, Quantity <br>
+  6. Inventory - it contains inventory details including InventoryID, ProductID, Quantity <br>
   7. Order Item - it contains details of all order items which includes orderitemID, orderitem quantity, price, orderID, productID <br>
   8. Payment - it contains details of payment made by customer inculding tax amount which includes paymentID, payment date, amount, orderID, customerID <br>
 
