@@ -31,34 +31,34 @@ PERFORMED ANALYSIS:
 
 CUSTOMER <br>
 
-   How many customers are there in total? <br>
-   How many customers are male and female? <br>
-   what is the average age of all the female customer? <br>
-   How many customer placed the order and among them which customer placed the maximum order? <br>
-   What is the distribution of customers by age group? <br>
-   what is the lifespan of customer gretaer than 5 months? <br>
+  1. How many customers are there in total? <br>
+  2. How many customers are male and female? <br>
+  3. What is the average age of all the female customer? <br>
+  4. How many customer placed the order and among them which customer placed the maximum order? <br>
+  5. What is the distribution of customers by age group? <br>
+  6. What is the lifespan of customer gretaer than 5 months? <br>
        
 DISTRIBUTOR <br>
 
-   what is the distribution of distributors by gender? <br>
-   which distributor have the highest number of product? <br>
+  1. What is the distribution of distributors by gender? <br>
+  2. Which distributor have the highest number of product? <br>
        
 ORDER <br>
 
-   How many orders have been placed in total? <br>
-   What is the total revenue generated from orders? <br>
-   what is the Average Revenue Per order? <br>
-   How many orders are in each status category? <br>
-   What is the revenue distribution by product category? <br>
-   How many order have placed per date by customer detail? <br>
+  1. How many orders have been placed in total? <br>
+  2. What is the total revenue generated from orders? <br>
+  3. What is the Average Revenue Per order? <br>
+  4. How many orders are in each status category? <br>
+  5. What is the revenue distribution by product category? <br>
+  6. How many order have placed per date by customer detail? <br>
      
 PRODUCT <br>
 
-   What is the average price of products? <br>
-   what are the top selling product? <br>
-   what is the product distribution by category? <br>
-   How many products supplied by each distributor? <br>
-   What is the total revenue generated per product? <br>
+  1. What is the average price of products? <br>
+  2. What are the top selling product? <br>
+  3. What is the product distribution by category? <br>
+  4. How many products supplied by each distributor? <br>
+  5. What is the total revenue generated per product? <br>
      
 Inventory <br>
 
@@ -71,15 +71,15 @@ Inventory <br>
       
 ORDER ITEM <br>
 
-   what is the average price of items per order and product? <br>
-   How many items are in each order? <br>
-   Which products have the highest quantity ordered? <br>
-   How does the price of items vary across different orders? <br>
+  1. What is the average price of items per order and product? <br>
+  2. How many items are in each order? <br>
+  3. Which products have the highest quantity ordered? <br>
+  4. How does the price of items vary across different orders? <br>
       
 PAYMENT <br>
 
-   what is the total amount after 10% Tax? <br>
-   how many payment made on each payemnt date? <br>
+  1. What is the total amount after 10% Tax? <br>
+  2. how many payment made on each payemnt date? <br>
       
 INJECTED DATA INTO POWER BI USING DIRECT QUERY 
  
