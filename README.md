@@ -10,7 +10,7 @@ TOOL USED:
   Microsoft SQL Server Management Studio
   POWER BI
 
-METHODOLOGY:
+METHODOLOGY: 
 
 Created Database - Clothify
 
