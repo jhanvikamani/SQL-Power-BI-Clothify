@@ -88,7 +88,13 @@ DATA MODEL
 ![Data model](https://github.com/jhanvikamani/SQL-Power-BI-Clothify/assets/49193372/bf0f6d8a-6761-4561-8839-2e7204c75c91)
 
 
-CREATED MEASURE PROFIT USING POWER QUERY
+CREATED MEASURE PROFIT USING DAX IN POWER BI
+
+![profit](https://github.com/jhanvikamani/SQL-Power-BI-Clothify/assets/49193372/be9e2b16-35b6-4b0f-8fea-eec8a8f09ba9)
+
 
 CREATED DASHBOARD USING DIFFERENT FEATURES AND VISUALIZATION OF POWER BI
+
+![C D dashboard](https://github.com/jhanvikamani/SQL-Power-BI-Clothify/assets/49193372/9f1a89c5-3ef8-4505-bfe0-8457054de461)
+
   
