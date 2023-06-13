@@ -12,3 +12,10 @@ POWER BI
 
 METHODOLOGY:
 
+Created Database - Clothify
+
+Created Table :
+1. Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age
+2. Distributor - it contain distributor details which includes DistributorID, Name, Email, Address, Phone-No, Gender, Age
+3. Order Table - it contain order details which includes orderID, order date, customerID, status, order-no, 
+
