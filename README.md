@@ -29,7 +29,7 @@ Payment - it contains details of payment made by customer inculding tax amount w
 
 4. Performed Analysis:
 
- CUSTOMER
+A. CUSTOMER
        How many customers are there in total?/n
        How many customers are male and female?/n
        what is the average age of all the female customer?
@@ -37,7 +37,7 @@ Payment - it contains details of payment made by customer inculding tax amount w
        What is the distribution of customers by age group?
        what is the lifespan of customer gretaer than 5 months?
        
- DISTRIBUTOR
+B. DISTRIBUTOR
        what is the distribution of distributors by gender?
        which distributor have the highest number of product?
        
