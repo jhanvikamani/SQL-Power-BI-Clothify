@@ -30,8 +30,8 @@ Payment - it contains details of payment made by customer inculding tax amount w
 4. Performed Analysis:
 
  CUSTOMER
-       How many customers are there in total?
-       How many customers are male and female?
+       How many customers are there in total?/n
+       How many customers are male and female?/n
        what is the average age of all the female customer?
        How many customer placed the order and among them which customer placed the maximum order?
        What is the distribution of customers by age group?
