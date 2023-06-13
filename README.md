@@ -7,8 +7,8 @@ Clothify is an imaginary clothing e-commerce database that i created, and the da
 
 TOOL USED:
 
-Microsoft SQL Server Management Studio
-POWER BI
+  Microsoft SQL Server Management Studio
+  POWER BI
 
 METHODOLOGY:
 
