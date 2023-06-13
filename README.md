@@ -12,9 +12,9 @@ Clothify is an imaginary clothing e-commerce database that I created, and the da
 
 # METHODOLOGY: 
 
-### DATABASE - Clothify
+#### DATABASE - Clothify
 
-CREATED TABLE :
+#### CREATED TABLE :
 
   1. Customer - it contain customer details which includes customerID, name, email, address, phone-no, gender, age <br>
   2. Distributor - it contain distributor details which includes DistributorID, Name, Email, Address, Phone-No, Gender, Age <br>
@@ -25,9 +25,9 @@ CREATED TABLE :
   7. Order Item - it contains details of all order items which includes orderitemID, orderitem quantity, price, orderID, productID <br>
   8. Payment - it contains details of payment made by customer inculding tax amount which includes paymentID, payment date, amount, orderID, customerID <br>
 
-INSERTED RECORDS 
+#### INSERTED RECORDS 
 
-PERFORMED ANALYSIS:
+#### PERFORMED ANALYSIS:
 
 CUSTOMER <br>
 
@@ -81,14 +81,14 @@ PAYMENT <br>
   1. What is the total amount after 10% Tax? <br>
   2. how many payment made on each payemnt date? <br>
       
-INJECTED DATA INTO POWER BI USING DIRECT QUERY 
+#### DATA INJECTION INTO POWER BI USING DIRECT QUERY 
  
-DATA MODEL
+#### DATA MODELLING
 
 ![Data model](https://github.com/jhanvikamani/SQL-Power-BI-Clothify/assets/49193372/bf0f6d8a-6761-4561-8839-2e7204c75c91)
 
 
-CREATED DASHBOARD USING DIFFERENT FEATURES AND VISUALIING CHARTS OF POWER BI
+#### CREATED DASHBOARD USING DIFFERENT FEATURES AND VISUALIING CHARTS OF POWER BI
 
 ![C D dashboard](https://github.com/jhanvikamani/SQL-Power-BI-Clothify/assets/49193372/9f1a89c5-3ef8-4505-bfe0-8457054de461)
 
