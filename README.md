@@ -13,7 +13,7 @@ The objective of this project is to gain insights into the Clothify business by 
 
 #### DATABASE - Clothify
 
-#### CREATED TABLE :
+#### CREATED TABLES :
 
   1. Customer - it contains customer details including customerID, name, email, address, phone-no, gender, age <br>
   2. Distributor - it contains distributor details including DistributorID, Name, Email, Address, Phone-No, Gender, Age <br>
